@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Shapes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="app">
+       <div class="wrapper-info">
+            <div>
+                <label>Shapes Count:</label>
+                <input type="text" id="shapes-count" readonly>
+            </div>
+            <div>
+                <label>Surface Area (px²):</label>
+                <input type="text" id="surface-area" readonly>
+            </div>
+       </div>
+    </div>
+    <div class="controls">
+
+        <div class="controls-wrapper"> 
+            <label>Shapes Per Second: <span id="shapeCount"></span></label>
+            <div>
+                <button id="increase-rate">+</button>
+                <button id="decrease-rate">-</button>
+            </div>
+        </div>
+        <div class="controls-wrapper">
+            <label>Gravity: <span id="gravityCount"></span></label>
+           <div>
+                <button id="increase-gravity">+</button>
+                <button id="decrease-gravity">-</button>
+           </div>
+        </div>
+    </div>
+    <script type="module" src="./app/main.ts"></script>
+</body>
+</html>

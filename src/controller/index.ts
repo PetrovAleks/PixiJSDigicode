@@ -1,0 +1,1 @@
+export { ShapeController } from './ShapeController';

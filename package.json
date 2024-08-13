@@ -1,0 +1,22 @@
+{
+  "name": "digicode_pixijs-_amedev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "@types/pixi.js": "^5.0.0",
+    "cssnano": "^7.0.5",
+    "pixi.js": "^8.3.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}
